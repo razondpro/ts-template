@@ -1,0 +1,14 @@
+export default {
+  clearMocks: true,
+  collectCoverage: true,
+  coverageDirectory: 'coverage',
+  coverageProvider: 'v8',
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  testMatch: [
+    '**/tests/**/*.spec.ts',
+    '**/tests/**/*.test.ts'
+  ],
+  transform: {
+    '^.+\\.(ts|tsx)$': 'ts-jest'
+  }
+}
