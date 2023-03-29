@@ -10,5 +10,9 @@
     "strict": true,
     "removeComments": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "jest.config.ts"
+  ],
 }
